@@ -4,7 +4,8 @@ from tokenisation_chinois import nettoyage
 
 chemin = "data/deepseek/"
 final_file = "final_ds_corpus.txt"
-chapitre = [16, 18, 29, 30, 31, 38]
+# chapitre = [16, 18, 29, 30, 31, 38]
+chapitre = [16, 18, 29, 38]
 
 
 
@@ -24,6 +25,8 @@ def union_file(path:str, final_file:str, chapitre:list[int]) :
                     tokens = " ".join(jieba.lcut(clean_content)) # tokenisation
                     tokens = "\n".join(line.strip() for line in tokens.splitlines()) # enlève les espaces en début et fin de ligne
                     final.write(tokens)
+            else :  
+                continue
 
 chemins = {
     "deepseek" : "ds", 
@@ -33,10 +36,10 @@ chemins = {
 }
 
 for chemin, file in chemins.items() :
-    path = f"date/{chemin}/"
+    path = f"data/{chemin}/"
     final_file = f"final_{file}_corpus.txt"
 
-    print(f"Dossier {chemin} en cours de traitement.")
+    print(f"Dossier {chemin} en cours de traitement.\n")
     union_file(path, final_file, chapitre)
-    print(f"Sauvegardé dans : {final_file}")
+    print(f"\n Sauvegardé dans : {final_file}")
     
