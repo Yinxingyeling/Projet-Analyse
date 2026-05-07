@@ -1,0 +1,17 @@
+id, chapitre, ia
+gpt_chap_16, 16, chatgpt
+gpt_chap_18, 18, chatgpt
+gpt_chap_29, 29, chatgpt
+gpt_chap_38, 38, chatgpt
+cld_chap_16, 16, claude
+cld_chap_18, 18, claude
+cld_chap_29, 29, claude
+cld_chap_38, 38, claude
+ds_chap_16, 16, deepseek
+ds_chap_18, 18, deepseek
+ds_chap_29, 29, deepseek
+ds_chap_38, 38, deepseek
+qw_chap_16, 16, qwen
+qw_chap_18, 18, qwen
+qw_chap_29, 29, qwen
+qw_chap_38, 38, qwen

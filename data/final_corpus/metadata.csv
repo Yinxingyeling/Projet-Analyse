@@ -1,0 +1,5 @@
+id, ia
+final_gpt_corpus, chatgpt
+final_cld_corpus, claude
+final_ds_corpus, deepseek
+final_qw_corpus, qwen
