@@ -1,0 +1,6 @@
+id, source, type
+final_gpt_corpus, ai,chatgpt
+final_cld_corpus, ai,claude
+final_ds_corpus,ai, deepseek
+final_qw_corpus, ai,qwen
+final_humain_corpus,humain, manuel
