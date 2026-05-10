@@ -1,0 +1,4 @@
+id, source, type
+humain_manuel, humain,manuel
+qw_f_clean, ai,feminin
+qw_m_clean,ai, masculin
